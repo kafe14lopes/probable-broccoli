@@ -1,0 +1,108 @@
+.home{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5b0e2d;
+    border: #ffa781 5px solid;
+}
+
+.home h1{
+    color:  #ffa781;
+    padding-top: 24px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.sobre{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5b0e2d;
+    border: #ffa781 5px solid;
+}
+
+.sobre main{
+    margin-top: 55px;
+}
+
+.sobre h1{
+    color:  #ffa781;
+    padding-top: 24px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.caixa_sobre_nos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.sobre h2{
+    color: #cfe5ff;
+    margin-bottom: 32px;
+    font-size: 30px ;
+    margin-top: 20px;
+}
+
+.sobre p{
+    color: #cfe5ff;
+    font-size: 22px;
+}
+
+.texto_sobre_nos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa_logo{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5b0e2d;
+}
+
+.caixa_logo h1{
+    color: #ffa781;
+    font-size: 46px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.caixa_logo p{
+    margin: 15px;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffa781;
+
+}
+
+.caixa_logo a{
+    text-decoration: none;
+}
+
+.caixa_logo_bordas{
+    border-radius: 12px;
+    border-left: #ffa781 5px solid;
+    border-right: #ffa781 5px solid;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa_logo_bordas p:hover{
+    transition: .4s;
+    color: #cfe5ff;
+    text-decoration: underline;
+}
